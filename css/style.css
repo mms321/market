@@ -2,6 +2,7 @@ body{
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+   
 }
 
 
@@ -11,11 +12,14 @@ content {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    width: 1400px;
 }
 /*для наочностфі роботи з блоками*/
 
 div {
     border: 1px solid darkgray;
+    justify-content: center;
+
 }
 
 .title{
