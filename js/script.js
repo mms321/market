@@ -1,21 +1,35 @@
-console.log('Перевірка підключеного файлу скриптів script.js')
+//Перевірка підключеного файлу скриптів
+console.log('Підключено файл скриптів script.js')
 
+// Отримання елементу з ідентифікатором items
 let itemsDiv = document.getElementById("items");
 
+//Перевірка існування знайденого блоку
 if (itemsDiv) {
-    console.log(itemsDiv)
+    //Вивід знайденого елементу
+    //console.log(itemsDiv)
 
-    // Додавання відформатованого HTML коду в блок
-    // itemsDiv.innerHTML += '<div class = "item"></div>'
-    // itemsDiv.innerHTML += '<div class = "item"></div>'
-    // itemsDiv.innerHTML += '<div class = "item"></div>'
-    // itemsDiv.innerHTML += '<div class = "item"></div>'
-
-for (let i = 0; i < 100; i++) {
-    itemsDiv.innerHTML += '<div class = "item"></div>'
+} else {
+    //Вивід повідомлення про не знайдений блок
+    console.log('Блок товарів не знайдено')
 }
 
- 
-} else {
-    console.log('Блок товарів не знайдено')
+//Визначення масиву товарів
+let itemsArray = [
+    'Газонокосарка 43',
+    'Електричний тример 110',
+    'Електрична газонокосарка 32',
+    'Акумуляторний обприскувач 12 N',
+    'Газонокосарка 430',
+    'Електричний тример 130',
+    'Електрична газонокосарка 320',
+    'Акумуляторний обприскувач 12 E'
+]
+
+//Сортування масиву 
+itemsArray = itemsArray.sort()
+
+//Виведення в консоль номерів та значень елементів масиву
+for (let i = 0; i < itemsArray.length; i++) {
+    console.log(i + '-й елемент: ', itemsArray[i])
 }
