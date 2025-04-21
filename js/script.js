@@ -15,7 +15,7 @@ let itemsDiv = document.getElementById("items");
 //Перевірка існування знайденого блоку
 if (itemsDiv) {
     itemsArray.forEach((item)=>{
-        console.log(item)
+        itemsDiv.innerText += item
     })
 
 } else {
