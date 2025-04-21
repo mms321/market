@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <title>Market</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <title>Market</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <content>
+      <div class="title">Товари, на які діє знижка</div>
+      <div class="items">
+        <div class="item">
+         
+          <div class="item-title">Мотокоса 43</div>
+      
+        
+          <div class="item-image">
+            <img src="img/1.png" alt="Мотокоса 43" class="motokosa-img">
+          </div>
+      
+        
+          <div class="parts-pay">
+            <div><img src="img/paw.png" alt="Оплата Монобанк">6</div>
+            <div><img src="img/circle.png" alt="Оплата ПриватБанк">8</div>
+          </div>
+      
+       
+          <div class="price">
+            <div><span>5499</span><sup>грн</sup></div>
+            <div><span>4497</span><sup>грн</sup></div>
+          </div>
+      
+        
+          <div class="price bonus">
+            <div>ціна за купоном</div>
+            <div><span>4395</span><sup>грн</sup></div>
+          </div>
+        </div>
+      
+        
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
