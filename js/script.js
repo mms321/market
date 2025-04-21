@@ -5,12 +5,26 @@ let itemsDiv = document.getElementById("items");
 if (itemsDiv) {
     console.log(itemsDiv)
 
-    console.log('Поле classlist: ', itemsDiv.classList)
-    console.log('Поле id: ', itemsDiv.id)
-    console.log('Поле clientWidth: ', itemsDiv.clientWidth)
-    console.log('Поле innerHTML: ', itemsDiv.innerHTML)
+    // Додавання відформатованого HTML коду в блок
+    // itemsDiv.innerHTML += '<div class = "item"></div>'
+    // itemsDiv.innerHTML += '<div class = "item"></div>'
+    // itemsDiv.innerHTML += '<div class = "item"></div>'
+    // itemsDiv.innerHTML += '<div class = "item"></div>'
 
-    itemsDiv.innerText = 'Програмно доданий текст'
+for (let i = 0; i < 100; i++) {
+    itemsDiv.innerHTML += '<div class = "item"></div>'
+}
+
+ 
 } else {
     console.log('Блок товарів не знайдено')
+}
+// Додавання відформатованого HTML коду в блок
+// itemsDiv.innerHTML += '<div class = "item"></div>'
+// itemsDiv.innerHTML += '<div class = "item"></div>'
+// itemsDiv.innerHTML += '<div class = "item"></div>'
+// itemsDiv.innerHTML += '<div class = "item"></div>'
+
+for (let i = 0; i < 100; i++) {
+    itemsDiv.innerHTML += '<div class = "item"></div>'
 }
