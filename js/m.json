@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Мотокоса 43",
+    "photo": "1.png",
+    "monobankParts": 6,
+    "privatbankParts": 8,
+    "oldPrice": 5499,
+    "newPrice": 4497,
+    "couponPrice": 4395
+  },
+  {
+    "title": "Електропила 2200Вт",
+    "photo": "2.png",
+    "monobankParts": 5,
+    "privatbankParts": 7,
+    "oldPrice": 3799,
+    "newPrice": 3199,
+    "couponPrice": 2999
+  },
+  {
+    "title": "Акумуляторний шуруповерт",
+    "photo": "3.png",
+    "monobankParts": 4,
+    "privatbankParts": 6,
+    "oldPrice": 2499,
+    "newPrice": 1999,
+    "couponPrice": 1899
+  },
+  {
+    "title": "Бензопила 52cc",
+    "photo": "4.png",
+    "monobankParts": 6,
+    "privatbankParts": 8,
+    "oldPrice": 4799,
+    "newPrice": 3899,
+    "couponPrice": 3699
+  }
+]
