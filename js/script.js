@@ -9,13 +9,18 @@ let itemsArray = [
     'Акумуляторний обприскувач 12 N'
 ]
 
-//отримання елементук з індифікатором items
+//Отримання елементу з індентифікатором items
 let itemsDiv = document.getElementById("items");
 
 //Перевірка існування знайденого блоку
 if (itemsDiv) {
-    itemsArray.forEach((item)=>{
-        itemsDiv.innerText += item
+    itemsArray.forEach((item, index) => {
+        itemsDiv.innerHTML += 
+        `
+        <div class="item">
+            <h2>Товар №${index + 1} з ${itemsArray.length}</h2>
+            <p>${item}</p>
+        </div>`
     })
 
 } else {
@@ -24,6 +29,6 @@ if (itemsDiv) {
 }
 
 //Виведення елементів відсортованого масиву 
-itemsArray.sort().forEach((item)=>{
+itemsArray.sort().forEach((item, index) => {
     console.log(index + '-й елемент:', item)
 })

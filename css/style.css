@@ -147,3 +147,11 @@ content {
     width: 210px;
     height: auto;
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    margin-top: auto;
+}
